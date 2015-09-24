@@ -3,11 +3,20 @@
 
 ;;; Workflows ;;;
 
-;;; <<< BEGIN FILL ME IN >>>
-
-(def workflow)
-
-;;; <<< END FILL ME IN >>>
+(def workflow
+  [[:A :D]
+   [:B :D]
+   [:D :G]
+   [:D :F]
+   [:F :J]
+   [:F :K]
+   [:C :E]
+   [:E :G]
+   [:E :H]
+   [:E :I]
+   [:G :L]
+   [:H :L]
+   [:I :L]])
 
 ;;; Catalogs ;;;
 
