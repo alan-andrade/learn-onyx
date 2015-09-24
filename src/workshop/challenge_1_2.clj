@@ -3,11 +3,13 @@
 
 ;;; Workflows ;;;
 
-;;; <<< BEGIN FILL ME IN >>>
-
-(def workflow)
-
-;;; <<< END FILL ME IN >>>
+(def workflow
+  [[:read-segments :cube-n]
+   [:cube-n :add-ten]
+   [:cube-n :add-forty]
+   [:add-ten :multiply-by-5]
+   [:add-forty :multiply-by-5]
+   [:multiply-by-5 :write-segments]])
 
 ;;; Catalogs ;;;
 
